@@ -12,15 +12,24 @@ var argument2 = process.argv.slice(3).join(" ");
 
 if (argument1 === "spotify-this") {
 
-  var artist = argument2
+  var song = argument2
 
-  spotify.search({ type: 'artist', query: artist }, function(err, data) {
+  spotify.search({ type: 'track', query: song }, function(err, data) {
 
-  if (err) {
-  return console.log('Error occurred: ' + err);
-  }
+    if (err) {
+    return console.log('Error occurred: ' + err);
+    }
 
-  console.log(data.artists.items[0]);
+    var spotifyResult = data.tracks.items[0, 1, 2]
+
+    var showSpotifyData = [
+      "\n\nSong: " + spotifyResult.name,
+      "Album: " + spotifyResult.album.name,
+      "Artist(s): " + spotifyResult.album.artists[0].name,
+      "Spotify URL: " + spotifyResult.external_urls.spotify + "\n\n"
+    ].join("\n\n");
+
+    console.log(showSpotifyData);
 
 });
 
@@ -50,7 +59,7 @@ else if (argument1 === "movie-this") {
 }
 
 else if (argument1 === "do-what-it-says") {
-  
+
 }
 
 else {
