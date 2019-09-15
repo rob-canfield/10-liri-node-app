@@ -42,7 +42,15 @@ else if (argument1 === "concert-this") {
   
   axios.get(bandsintown).then(
     function(response) {
-      console.log(response);
+
+      // var showConcertData = [
+      //   "\n\nVenue name: " + response.data.venue,
+      //   "Venue Location: " + response.data.venue.city + ", " + response.data.venue.country,
+      //   "Show date: " + response.data.datetime + "\n\n"
+      // ].join("\n\n");
+
+      console.log(response.data);
+
     })
 }
 
@@ -53,7 +61,8 @@ else if (argument1 === "movie-this") {
 
   axios.get(ombd).then(
     function (response) {
-      console.log(response);
+
+    
     })
 
 }
