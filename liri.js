@@ -31,33 +31,57 @@ function movie (searchTerm) {
       ].join("\n\n");
 
       console.log(showMovieData);
-      // console.log(response.data);
     
+      fs.appendFile("log.txt", showMovieData, function(err) {
+
+        if (err) {
+          console.log(err);
+        }
+        else {
+          console.log("Search Added!");
+        }
+      
+      });
     })
+
+
 }
 
 function song (searchTerm) {
   var song = searchTerm
 
-spotify.search({ type: 'track', query: song }, function(err, data) {
+  spotify.search({ type: 'track', query: song }, function (err, data) {
 
-  if (err) {
-  return console.log('Error occurred: ' + err);
-  }
+    if (err) {
+      return console.log('Error occurred: ' + err);
+    }
 
-  var spotifyResult = data.tracks.items[0, 1, 2]
+    var spotifyResult = data.tracks.items[0, 1, 2]
 
-  var showSpotifyData = [
-    "\n\nSONG SEARCH RESULTS\n",
-    "Song: " + spotifyResult.name,
-    "Album: " + spotifyResult.album.name,
-    "Artist(s): " + spotifyResult.album.artists[0].name,
-    "Spotify URL: " + spotifyResult.external_urls.spotify + "\n\n"
-  ].join("\n\n");
+    var showSpotifyData = [
+      "\n\nSONG SEARCH RESULTS\n",
+      "Song: " + spotifyResult.name,
+      "Album: " + spotifyResult.album.name,
+      "Artist(s): " + spotifyResult.album.artists[0].name,
+      "Spotify URL: " + spotifyResult.external_urls.spotify + "\n\n"
+    ].join("\n\n");
 
-  console.log(showSpotifyData);
+    console.log(showSpotifyData);
 
-});
+    fs.appendFile("log.txt", showSpotifyData, function(err) {
+
+      if (err) {
+        console.log(err);
+      }
+      else {
+        console.log("Search Added!");
+      }
+    
+    });
+
+  });
+
+
 }
 
 function concert(searchTerm) {
@@ -78,10 +102,23 @@ function concert(searchTerm) {
       ].join("\n\n");
 
       console.log(showConcertData);
-      // console.log(response.data);
+
+      fs.appendFile("log.txt", showConcertData, function(err) {
+
+        if (err) {
+          console.log(err);
+        }
+        else {
+          console.log("Search Added!");
+        }
+      
+      });
 
     })
+
+  
 }
+
 
 if (argument1 === "spotify-this") {
 
