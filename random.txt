@@ -1,1 +1,3 @@
-spotify-this-song,"I Want it That Way"
+spotify-this,"I Want it That Way"
+movie-this,The Dark Crystal
+concert-this,Chrome Sparks
