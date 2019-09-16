@@ -4,6 +4,15 @@ var Spotify = require('node-spotify-api');
 var fs = require("fs");
 var axios = require('axios');
 var keys = require("./keys.js");
+var moment = require("moment");
+
+// requirejs.config({
+//   packages: [{
+//     name: 'moment',
+//     location: './node_modules/moment',
+//     main: 'moment'
+//   }]
+// });
 
 var spotify = new Spotify(keys.spotify);
 
@@ -43,13 +52,15 @@ else if (argument1 === "concert-this") {
   axios.get(bandsintown).then(
     function(response) {
 
-      // var showConcertData = [
-      //   "\n\nVenue name: " + response.data.venue,
-      //   "Venue Location: " + response.data.venue.city + ", " + response.data.venue.country,
-      //   "Show date: " + response.data.datetime + "\n\n"
-      // ].join("\n\n");
+      var dateTime = moment(response.data[0].datetime).format('LLLL');
 
-      console.log(response.data);
+      var showConcertData = [
+        "\n\nVenue: " + response.data[0].venue.name,
+        "Location: " + response.data[0].venue.region + ", " + response.data[0].venue.city,
+        "Date: " + dateTime + "\n\n"
+      ].join("\n\n");
+
+      console.log(showConcertData);
 
     })
 }
