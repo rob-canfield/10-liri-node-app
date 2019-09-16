@@ -73,6 +73,18 @@ else if (argument1 === "movie-this") {
   axios.get(ombd).then(
     function (response) {
 
+      var showMovieData = [
+        "\n\nTitle: " + response.data.Title,
+        "Release Year: " + response.data.Year,
+        "IMBD Rating: " + response.data.Ratings[0].Value,
+        "Rotten Tomatoes Rating: " + response.data.Ratings[1].Value,
+        "Country of Production: " + response.data.Country,
+        "Language: " + response.data.Language,
+        "Plot: " + response.data.Plot,
+        "Actors: " + response.data.Actors + "\n\n"
+      ].join("\n\n");
+
+      console.log(showMovieData);
     
     })
 
