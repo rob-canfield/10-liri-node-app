@@ -20,8 +20,7 @@ by typing the following commands into terminal/bash:
 
 *finally*
 ·song, artist, or movie you would like to search
-
-watch full demo: (https://youtu.be/tNkgEey97v4)
+[watch full demo](https://youtu.be/tNkgEey97v4)
 
 
 **Technologies Used**

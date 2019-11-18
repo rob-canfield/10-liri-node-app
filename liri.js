@@ -11,34 +11,42 @@ var spotify = new Spotify(keys.spotify);
 var argument1 = process.argv[2]
 var argument2 = process.argv.slice(3).join(" ");
 
-function movie (searchTerm) {
-  var movie = searchTerm
-  var ombd = "http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=trilogy"
+function movie () {
+  var movie = argument2
+  var omdb = "http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&tomatoes=true&apikey=trilogy"
 
-  axios.get(ombd).then(
+  axios.get(omdb).then(
     function (response) {
 
       var showMovieData = [
-        "\n\nMOVIE SEARCH RESULTS\n",
+        "\n\nMOVIE SEARCH RESULTS",
+        "===================================================\n",
         "Title: " + response.data.Title,
         "Release Year: " + response.data.Year,
         "IMBD Rating: " + response.data.imdbRating,
-        // "Rotten Tomatoes Rating: " + response.data.Ratings[1].Value,
+        "Rotten Tomatoes Rating: " + response.data.tomatoRating,
         "Country of Production: " + response.data.Country,
         "Language: " + response.data.Language,
         "Plot: " + response.data.Plot,
         "Actors: " + response.data.Actors + "\n\n"
       ].join("\n\n");
 
-      console.log(showMovieData);
-    
-      fs.appendFile("log.txt", showMovieData, function(err) {
+      if (!response.data.Title){
+        console.log("\n\n===================================================")
+        console.log("Sorry, I couldn't find that one. Please try again.")
+        console.log("===================================================\n\n")
+      }
+      else{
+        console.log(showMovieData);
+      }
 
-        if (err) {
-          console.log(err);
+      fs.appendFile("log.txt", showMovieData, function(error) {
+
+        if (error) {
+          console.log(error);
         }
         else {
-          console.log("Search Added!");
+          console.log("Search Added to log.txt!");
         }
       
       });
@@ -47,19 +55,23 @@ function movie (searchTerm) {
 
 }
 
-function song (searchTerm) {
-  var song = searchTerm
+function song () {
+  var song = argument2
 
-  spotify.search({ type: 'track', query: song }, function (err, data) {
+  spotify.search({ type: 'track', query: song }, function (error, data) {
 
-    if (err) {
-      return console.log('Error occurred: ' + err);
+    if (error) {
+        console.log("\n\n===================================================");
+        console.log("Sorry, I couldn't find that one. Please try again.");
+        console.log("===================================================\n\n");
+        return error;
     }
 
     var spotifyResult = data.tracks.items[0, 1, 2]
 
     var showSpotifyData = [
-      "\n\nSONG SEARCH RESULTS\n",
+      "\n\nSONG SEARCH RESULTS",
+      "===================================================\n",
       "Song: " + spotifyResult.name,
       "Album: " + spotifyResult.album.name,
       "Artist(s): " + spotifyResult.album.artists[0].name,
@@ -68,10 +80,11 @@ function song (searchTerm) {
 
     console.log(showSpotifyData);
 
-    fs.appendFile("log.txt", showSpotifyData, function(err) {
 
-      if (err) {
-        console.log(err);
+    fs.appendFile("log.txt", showSpotifyData, function(error) {
+
+      if (error) {
+        console.log(error);
       }
       else {
         console.log("Search Added!");
@@ -84,8 +97,8 @@ function song (searchTerm) {
 
 }
 
-function concert(searchTerm) {
-  var artist = searchTerm
+function concert() {
+  var artist = argument2
   var bandsintown = "https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp"
   
   axios.get(bandsintown).then(
@@ -94,19 +107,29 @@ function concert(searchTerm) {
       var dateTime = moment(response.data[0].datetime).format('LLLL');
 
       var showConcertData = [
-        "\n\nCONCERT SEARCH RESULTS\n`",
+        "\n\nCONCERT SEARCH RESULTS\n",
+        "===================================================",
         "Lineup: " + response.data[0].lineup,
         "Venue: " + response.data[0].venue.name,
         "Location: " + response.data[0].venue.region + ", " + response.data[0].venue.city,
         "Date: " + dateTime + "\n\n"
       ].join("\n\n");
 
-      console.log(showConcertData);
 
-      fs.appendFile("log.txt", showConcertData, function(err) {
+      if (!response.data[0].lineup){
+        console.log("\n\n===================================================")
+        console.log("Sorry, I couldn't find that one. Please try again.")
+        console.log("===================================================\n\n")
+      }
+      else{
+        console.log(showConcertData);
+      }
+    
 
-        if (err) {
-          console.log(err);
+      fs.appendFile("log.txt", showConcertData, function(error) {
+
+        if (error) {
+          console.log(error);
         }
         else {
           console.log("Search Added!");
@@ -114,34 +137,16 @@ function concert(searchTerm) {
       
       });
 
-    })
-
-  
+    })  
 }
 
-
-if (argument1 === "spotify-this") {
-
- song(argument2);
-
-} 
-
-else if (argument1 === "concert-this") {
- 
-  concert(argument2);
-}
-
-else if (argument1 === "movie-this") {
-
-  movie(argument2);
-}
-
-else if (argument1 === "do-what-it-says") {
+function random() {
 
   fs.readFile("random.txt", "utf8", function(error, data) {
 
     if (error) {
-      return console.log(error);
+      console.log("Sorry! That didn't work.");
+      return error;
     }
 
     var dataArr = data.split(",");
@@ -151,6 +156,7 @@ else if (argument1 === "do-what-it-says") {
       var songRandom = dataArr[1]
       var concertRandom = dataArr[3]
       var movieRandom = dataArr[5]
+
     }
 
     song(songRandom);
@@ -158,20 +164,21 @@ else if (argument1 === "do-what-it-says") {
     movie(movieRandom);
 
   });
-
 }
 
-else {
-  console.log('\n†††††††††††††††††††††††††††††††††††††††††††††††††††††\n\nWelcome to Liri v.0.0.0.1. \n\nSearch songs, concerts, and movies using the following commands:\n\n·spotify-this-song\n·concert-this \n·movie-this \n\n-or- \n\n·do-what-it-says for a random search\n')
+switch(argument1) {
+  case "spotify-this":
+    song()
+    break;
+  case "concert-this":
+    concert()
+    break;
+  case "movie-this":
+    movie()
+    break;
+  case "do-what-it-says":
+    random()
+    break;
+  default:
+      console.log('\n†††††††††††††††††††††††††††††††††††††††††††††††††††††\n\nWelcome to Liri v.0.0.0.1. \n\nSearch songs, concerts, and movies using the following commands:\n\n·spotify-this-song\n·concert-this \n·movie-this \n\n-or- \n\n·do-what-it-says for a random search\n');  
 }
-
-
-
-
-
-
-
-
-
-
-

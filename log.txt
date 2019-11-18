@@ -43,3 +43,762 @@ Location: NJ, Asbury Park
 
 Date: Tuesday, September 17, 2019 8:00 PM
 
+
+
+MOVIE SEARCH RESULTS
+
+
+Title: undefined
+
+Release Year: undefined
+
+IMBD Rating: undefined
+
+Country of Production: undefined
+
+Language: undefined
+
+Plot: undefined
+
+Actors: undefined
+
+
+
+CONCERT SEARCH RESULTS
+`
+
+Lineup: Tycho
+
+Venue: Rockefeller – Tycho w/ Poolside
+
+Location: , Oslo
+
+Date: Sunday, February 9, 2020 8:00 PM
+
+
+
+SONG SEARCH RESULTS
+
+
+Song: A Walk
+
+Album: Dive
+
+Artist(s): Tycho
+
+Spotify URL: https://open.spotify.com/track/6koWevx9MqN6efQ6qreIbm
+
+
+
+MOVIE SEARCH RESULTS
+
+
+Title: The Hobbit
+
+Release Year: 1977
+
+IMBD Rating: 6.8
+
+Country of Production: USA, Japan
+
+Language: English
+
+Plot: A homebody hobbit in Middle Earth gets talked into joining a quest with a group of dwarves to recover their treasure from a dragon.
+
+Actors: Orson Bean, Richard Boone, Hans Conried, John Huston
+
+
+
+CONCERT SEARCH RESULTS
+`
+
+Lineup: Chrome Sparks,Busta Rhymes,Suicidal Tendencies,Donavon Frankenreiter,Tribal Seeds,Manchester Orchestra,X,Los Tucanes de Tijuana,Tyga,Moon Taxi,Los Ángeles Azules,Bas,Rob Machado,WALK THE MOON,Broods,DIMITRI VEGAS & LIKE MIKE,Haddon Cord,3LAU,Hippo Campus,Glades,SunSquabi,Banda Los Sebastianes,Diamante Eléctrico,Cydeways,SoDown,Donna Missal,Ghost Line,Exmag,Lil Dicky,Khea,Big Wild,Japanese Breakfast,Jonas Blue,Grace VanderWaal
+
+Venue: Wonderfront Music Festival
+
+Location: CA, San Diego
+
+Date: Sunday, November 24, 2019 7:00 PM
+
+
+
+SONG SEARCH RESULTS
+
+
+Song: I Want It That Way
+
+Album: I Want It That Way
+
+Artist(s): Mick Jensen
+
+Spotify URL: https://open.spotify.com/track/0ympGdYdVlZ8zo6irdjMvd
+
+
+
+MOVIE SEARCH RESULTS
+
+
+Title: undefined
+
+Release Year: undefined
+
+IMBD Rating: undefined
+
+Country of Production: undefined
+
+Language: undefined
+
+Plot: undefined
+
+Actors: undefined
+
+
+
+MOVIE SEARCH RESULTS
+
+
+Title: undefined
+
+Release Year: undefined
+
+IMBD Rating: undefined
+
+Country of Production: undefined
+
+Language: undefined
+
+Plot: undefined
+
+Actors: undefined
+
+
+
+MOVIE SEARCH RESULTS
+
+
+Title: undefined
+
+Release Year: undefined
+
+IMBD Rating: undefined
+
+Country of Production: undefined
+
+Language: undefined
+
+Plot: undefined
+
+Actors: undefined
+
+
+
+MOVIE SEARCH RESULTS
+
+
+Title: undefined
+
+Release Year: undefined
+
+IMBD Rating: undefined
+
+Country of Production: undefined
+
+Language: undefined
+
+Plot: undefined
+
+Actors: undefined
+
+
+
+MOVIE SEARCH RESULTS
+
+
+Title: undefined
+
+Release Year: undefined
+
+IMBD Rating: undefined
+
+Country of Production: undefined
+
+Language: undefined
+
+Plot: undefined
+
+Actors: undefined
+
+
+
+MOVIE SEARCH RESULTS
+
+
+Title: Braveheart
+
+Release Year: 1995
+
+IMBD Rating: 8.3
+
+Rotten Tomatoes Rating: N/A
+
+Country of Production: USA
+
+Language: English, French, Latin, Scottish Gaelic, Italian
+
+Plot: When his secret bride is executed for assaulting an English soldier who tried to rape her, William Wallace begins a revolt against King Edward I of England.
+
+Actors: James Robinson, Sean Lawlor, Sandy Nelson, James Cosmo
+
+
+
+MOVIE SEARCH RESULTS
+
+
+Title: John Wick
+
+Release Year: 2014
+
+IMBD Rating: 7.4
+
+Rotten Tomatoes Rating: N/A
+
+Country of Production: USA
+
+Language: English, Russian, Hungarian
+
+Plot: An ex-hit-man comes out of retirement to track down the gangsters that killed his dog and took everything from him.
+
+Actors: Keanu Reeves, Michael Nyqvist, Alfie Allen, Willem Dafoe
+
+
+
+MOVIE SEARCH RESULTS
+
+
+Title: undefined
+
+Release Year: undefined
+
+IMBD Rating: undefined
+
+Rotten Tomatoes Rating: undefined
+
+Country of Production: undefined
+
+Language: undefined
+
+Plot: undefined
+
+Actors: undefined
+
+
+
+MOVIE SEARCH RESULTS
+
+
+Title: Finding Nemo
+
+Release Year: 2003
+
+IMBD Rating: 8.1
+
+Rotten Tomatoes Rating: N/A
+
+Country of Production: USA, Australia
+
+Language: English
+
+Plot: After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.
+
+Actors: Albert Brooks, Ellen DeGeneres, Alexander Gould, Willem Dafoe
+
+
+
+MOVIE SEARCH RESULTS
+
+
+Title: Finding Nemo
+
+Release Year: 2003
+
+IMBD Rating: 8.1
+
+Rotten Tomatoes Rating: N/A
+
+Country of Production: USA, Australia
+
+Language: English
+
+Plot: After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.
+
+Actors: Albert Brooks, Ellen DeGeneres, Alexander Gould, Willem Dafoe
+
+
+
+MOVIE SEARCH RESULTS
+
+
+Title: Finding Nemo
+
+Release Year: 2003
+
+IMBD Rating: 8.1
+
+Rotten Tomatoes Rating: N/A
+
+Country of Production: USA, Australia
+
+Language: English
+
+Plot: After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.
+
+Actors: Albert Brooks, Ellen DeGeneres, Alexander Gould, Willem Dafoe
+
+
+
+MOVIE SEARCH RESULTS
+
+
+Title: Finding Nemo
+
+Release Year: 2003
+
+IMBD Rating: 8.1
+
+Rotten Tomatoes Rating: N/A
+
+Country of Production: USA, Australia
+
+Language: English
+
+Plot: After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.
+
+Actors: Albert Brooks, Ellen DeGeneres, Alexander Gould, Willem Dafoe
+
+
+
+MOVIE SEARCH RESULTS
+
+
+Title: undefined
+
+Release Year: undefined
+
+IMBD Rating: undefined
+
+Rotten Tomatoes Rating: undefined
+
+Country of Production: undefined
+
+Language: undefined
+
+Plot: undefined
+
+Actors: undefined
+
+
+
+CONCERT SEARCH RESULTS
+`
+
+Lineup: Chrome Sparks,Busta Rhymes,Suicidal Tendencies,Donavon Frankenreiter,Tribal Seeds,Manchester Orchestra,X,Los Tucanes de Tijuana,Tyga,Moon Taxi,Los Ángeles Azules,Bas,Rob Machado,WALK THE MOON,Broods,DIMITRI VEGAS & LIKE MIKE,Haddon Cord,3LAU,Hippo Campus,Glades,SunSquabi,Banda Los Sebastianes,Diamante Eléctrico,Cydeways,SoDown,Donna Missal,Ghost Line,Exmag,Lil Dicky,Khea,Big Wild,Japanese Breakfast,Jonas Blue,Grace VanderWaal
+
+Venue: Wonderfront Music Festival
+
+Location: CA, San Diego
+
+Date: Sunday, November 24, 2019 7:00 PM
+
+
+
+MOVIE SEARCH RESULTS
+
+
+Title: undefined
+
+Release Year: undefined
+
+IMBD Rating: undefined
+
+Rotten Tomatoes Rating: undefined
+
+Country of Production: undefined
+
+Language: undefined
+
+Plot: undefined
+
+Actors: undefined
+
+
+
+MOVIE SEARCH RESULTS
+
+
+Title: undefined
+
+Release Year: undefined
+
+IMBD Rating: undefined
+
+Rotten Tomatoes Rating: undefined
+
+Country of Production: undefined
+
+Language: undefined
+
+Plot: undefined
+
+Actors: undefined
+
+
+
+MOVIE SEARCH RESULTS
+
+
+Title: Finding Nemo
+
+Release Year: 2003
+
+IMBD Rating: 8.1
+
+Rotten Tomatoes Rating: N/A
+
+Country of Production: USA, Australia
+
+Language: English
+
+Plot: After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.
+
+Actors: Albert Brooks, Ellen DeGeneres, Alexander Gould, Willem Dafoe
+
+
+
+MOVIE SEARCH RESULTS
+
+
+
+
+Title: Finding Nemo
+
+Release Year: 2003
+
+IMBD Rating: 8.1
+
+Rotten Tomatoes Rating: N/A
+
+Country of Production: USA, Australia
+
+Language: English
+
+Plot: After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.
+
+Actors: Albert Brooks, Ellen DeGeneres, Alexander Gould, Willem Dafoe
+
+
+
+MOVIE SEARCH RESULTS
+
+
+
+
+Title: Finding Nemo
+
+Release Year: 2003
+
+IMBD Rating: 8.1
+
+Rotten Tomatoes Rating: N/A
+
+Country of Production: USA, Australia
+
+Language: English
+
+Plot: After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.
+
+Actors: Albert Brooks, Ellen DeGeneres, Alexander Gould, Willem Dafoe
+
+
+
+MOVIE SEARCH RESULTS
+
+
+===================================================
+
+
+Title: Finding Nemo
+
+Release Year: 2003
+
+IMBD Rating: 8.1
+
+Rotten Tomatoes Rating: N/A
+
+Country of Production: USA, Australia
+
+Language: English
+
+Plot: After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.
+
+Actors: Albert Brooks, Ellen DeGeneres, Alexander Gould, Willem Dafoe
+
+
+
+MOVIE SEARCH RESULTS
+
+
+===================================================
+
+
+Title: Finding Nemo
+
+Release Year: 2003
+
+IMBD Rating: 8.1
+
+Rotten Tomatoes Rating: N/A
+
+Country of Production: USA, Australia
+
+Language: English
+
+Plot: After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.
+
+Actors: Albert Brooks, Ellen DeGeneres, Alexander Gould, Willem Dafoe
+
+
+
+MOVIE SEARCH RESULTS
+
+===================================================
+
+
+Title: Finding Nemo
+
+Release Year: 2003
+
+IMBD Rating: 8.1
+
+Rotten Tomatoes Rating: N/A
+
+Country of Production: USA, Australia
+
+Language: English
+
+Plot: After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.
+
+Actors: Albert Brooks, Ellen DeGeneres, Alexander Gould, Willem Dafoe
+
+
+
+MOVIE SEARCH RESULTS
+
+===================================================
+
+
+Title: The Hobbit
+
+Release Year: 1977
+
+IMBD Rating: 6.8
+
+Rotten Tomatoes Rating: N/A
+
+Country of Production: USA, Japan
+
+Language: English
+
+Plot: A homebody hobbit in Middle Earth gets talked into joining a quest with a group of dwarves to recover their treasure from a dragon.
+
+Actors: Orson Bean, Richard Boone, Hans Conried, John Huston
+
+
+
+CONCERT SEARCH RESULTS
+
+
+===================================================
+
+Lineup: Chrome Sparks,Busta Rhymes,Suicidal Tendencies,Donavon Frankenreiter,Tribal Seeds,Manchester Orchestra,X,Los Tucanes de Tijuana,Tyga,Moon Taxi,Los Ángeles Azules,Bas,Rob Machado,WALK THE MOON,Broods,DIMITRI VEGAS & LIKE MIKE,Haddon Cord,3LAU,Hippo Campus,Glades,SunSquabi,Banda Los Sebastianes,Diamante Eléctrico,Cydeways,SoDown,Donna Missal,Ghost Line,Exmag,Lil Dicky,Khea,Big Wild,Japanese Breakfast,Jonas Blue,Grace VanderWaal
+
+Venue: Wonderfront Music Festival
+
+Location: CA, San Diego
+
+Date: Sunday, November 24, 2019 7:00 PM
+
+
+
+SONG SEARCH RESULTS
+
+===================================================
+
+
+Song: I Want It That Way
+
+Album: I Want It That Way
+
+Artist(s): Mick Jensen
+
+Spotify URL: https://open.spotify.com/track/0ympGdYdVlZ8zo6irdjMvd
+
+
+
+MOVIE SEARCH RESULTS
+
+===================================================
+
+
+Title: Undefined
+
+Release Year: 2006
+
+IMBD Rating: 6.5
+
+Rotten Tomatoes Rating: N/A
+
+Country of Production: USA
+
+Language: English
+
+Plot: An unfortunate accident sets in motion a path of change for Nathanial Cane as he attempts to recover from substance abuse. A mentally unstable psychiatrist, DR. Henry Calhoon is tipping ...
+
+Actors: Ralph Cooley, Phillip Enriquez, Gregory Labenz, Amy MacDonald
+
+
+
+CONCERT SEARCH RESULTS
+
+
+===================================================
+
+Lineup: Undefined,Rider Shafique,DJ dX,eastaudio SOUNDSYSTEM,Sam Binga
+
+Venue: STAR LOUNGE
+
+Location: 東京都, 東京都
+
+Date: Saturday, November 23, 2019 12:30 AM
+
+
+
+MOVIE SEARCH RESULTS
+
+===================================================
+
+
+Title: Undefined
+
+Release Year: 2006
+
+IMBD Rating: 6.5
+
+Rotten Tomatoes Rating: N/A
+
+Country of Production: USA
+
+Language: English
+
+Plot: An unfortunate accident sets in motion a path of change for Nathanial Cane as he attempts to recover from substance abuse. A mentally unstable psychiatrist, DR. Henry Calhoon is tipping ...
+
+Actors: Ralph Cooley, Phillip Enriquez, Gregory Labenz, Amy MacDonald
+
+
+
+MOVIE SEARCH RESULTS
+
+===================================================
+
+
+Title: The Hobbit
+
+Release Year: 1977
+
+IMBD Rating: 6.8
+
+Rotten Tomatoes Rating: N/A
+
+Country of Production: USA, Japan
+
+Language: English
+
+Plot: A homebody hobbit in Middle Earth gets talked into joining a quest with a group of dwarves to recover their treasure from a dragon.
+
+Actors: Orson Bean, Richard Boone, Hans Conried, John Huston
+
+
+
+CONCERT SEARCH RESULTS
+
+
+===================================================
+
+Lineup: Chrome Sparks,Busta Rhymes,Suicidal Tendencies,Donavon Frankenreiter,Tribal Seeds,Manchester Orchestra,X,Los Tucanes de Tijuana,Tyga,Moon Taxi,Los Ángeles Azules,Bas,Rob Machado,WALK THE MOON,Broods,DIMITRI VEGAS & LIKE MIKE,Haddon Cord,3LAU,Hippo Campus,Glades,SunSquabi,Banda Los Sebastianes,Diamante Eléctrico,Cydeways,SoDown,Donna Missal,Ghost Line,Exmag,Lil Dicky,Khea,Big Wild,Japanese Breakfast,Jonas Blue,Grace VanderWaal
+
+Venue: Wonderfront Music Festival
+
+Location: CA, San Diego
+
+Date: Sunday, November 24, 2019 7:00 PM
+
+
+
+SONG SEARCH RESULTS
+
+===================================================
+
+
+Song: I Want It That Way
+
+Album: I Want It That Way
+
+Artist(s): Mick Jensen
+
+Spotify URL: https://open.spotify.com/track/0ympGdYdVlZ8zo6irdjMvd
+
+
+
+MOVIE SEARCH RESULTS
+
+===================================================
+
+
+Title: Braveheart
+
+Release Year: 1995
+
+IMBD Rating: 8.3
+
+Rotten Tomatoes Rating: N/A
+
+Country of Production: USA
+
+Language: English, French, Latin, Scottish Gaelic, Italian
+
+Plot: When his secret bride is executed for assaulting an English soldier who tried to rape her, William Wallace begins a revolt against King Edward I of England.
+
+Actors: James Robinson, Sean Lawlor, Sandy Nelson, James Cosmo
+
+
+
+MOVIE SEARCH RESULTS
+
+===================================================
+
+
+Title: Finding Nemo
+
+Release Year: 2003
+
+IMBD Rating: 8.1
+
+Rotten Tomatoes Rating: N/A
+
+Country of Production: USA, Australia
+
+Language: English
+
+Plot: After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.
+
+Actors: Albert Brooks, Ellen DeGeneres, Alexander Gould, Willem Dafoe
+
