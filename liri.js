@@ -11,7 +11,7 @@ var spotify = new Spotify(keys.spotify);
 var argument1 = process.argv[2]
 var argument2 = process.argv.slice(3).join(" ");
 
-function movie () {
+function movie (argument2) {
   var movie = argument2
   var omdb = "http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&tomatoes=true&apikey=trilogy"
 
@@ -55,7 +55,7 @@ function movie () {
 
 }
 
-function song () {
+function song (argument2) {
   var song = argument2
 
   spotify.search({ type: 'track', query: song }, function (error, data) {
@@ -97,7 +97,7 @@ function song () {
 
 }
 
-function concert() {
+function concert(argument2) {
   var artist = argument2
   var bandsintown = "https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp"
   
