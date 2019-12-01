@@ -11,8 +11,7 @@ var spotify = new Spotify(keys.spotify);
 var argument1 = process.argv[2]
 var argument2 = process.argv.slice(3).join(" ");
 
-function movie (argument2) {
-  var movie = argument2
+function movie (movie) {
   var omdb = "http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&tomatoes=true&apikey=trilogy"
 
   axios.get(omdb).then(
@@ -55,8 +54,8 @@ function movie (argument2) {
 
 }
 
-function song (argument2) {
-  var song = argument2
+function song (song) {
+  
 
   spotify.search({ type: 'track', query: song }, function (error, data) {
 
@@ -97,14 +96,14 @@ function song (argument2) {
 
 }
 
-function concert(argument2) {
-  var artist = argument2
+function concert(artist) {
   var bandsintown = "https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp"
   
   axios.get(bandsintown).then(
     function(response) {
 
       var dateTime = moment(response.data[0].datetime).format('LLLL');
+ 
 
       var showConcertData = [
         "\n\nCONCERT SEARCH RESULTS\n",
@@ -168,13 +167,13 @@ function random() {
 
 switch(argument1) {
   case "spotify-this":
-    song()
+    song(argument2)
     break;
   case "concert-this":
-    concert()
+    concert(argument2)
     break;
   case "movie-this":
-    movie()
+    movie(argument2)
     break;
   case "do-what-it-says":
     random()
